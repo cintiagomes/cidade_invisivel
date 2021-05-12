@@ -90,12 +90,13 @@ footer{
     /*background-color: rgba(184, 135, 11, 0.226);*/
 }
 .butter{
+    opacity : 0.7;
     position: absolute;
     width: 60px;
     top: 90vh;
     left: 90vw;
     filter: brightness(10%);
-    animation: voar 40s linear infinite;
+    animation: voar 5s linear infinite;
 }
 @keyframes voar{
     0%{
