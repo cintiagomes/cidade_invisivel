@@ -21,7 +21,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10vw;
+    padding: 10px 10vw;
 }
 img{
     width: 145px;
@@ -50,16 +50,18 @@ a {
 main{
     flex-grow: 6;
     /*background-color: rgba(153, 50, 204, 0.452);*/
-    padding: 20vh 10vw;
+    padding: 15vh 10vw;
     color: white;
     font-size: 17px;
     line-height: 1.5;
 }
 main h3{
     font-size: 25px;
+    margin-bottom:0px;
 }
 main h1{
-    font-size: 50px;
+    font-size: 80px;
+    font-family: 'Caesar Dressing', cursive;
 }
 main p{
     font-size: 20px;
@@ -74,21 +76,21 @@ main a{
     text-align: center;
     width: 130px;
     height: 40px;
-    background-color: goldenrod;
+    background-color: rgb(143, 24, 24);
     border: solid 1px black;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.76);
-    margin-top: 30px;
-    border-radius: 20px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.308);
+    margin-top: 15px;
+    border-radius:0px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.719);
     transition: all 1s;
 }
 main a:hover{
-    border: solid 1px goldenrod;
+    border: solid 1px rgb(143, 24, 24);
     background-color: rgba(0, 0, 0, 0.76);
 }
 footer{
     text-align: center;
-    height: 40px;
+    height: 30px;
     color: white;
     font-size: 15px;
     /*background-color: rgba(184, 135, 11, 0.226);*/
@@ -100,7 +102,7 @@ footer{
     top: 90vh;
     left: 90vw;
     filter: brightness(10%);
-    animation: voar 5s linear infinite;
+    animation: voar 7s linear infinite;
 }
 @keyframes voar{
     0%{

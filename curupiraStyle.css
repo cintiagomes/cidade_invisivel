@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/Curupira.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: right top;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+}
+header{
+    background-color: #000000AA;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10vw;
+}
+img{
+    width: 145px;
+}
+.links ul{
+    display:flex;
+    gap: 18px;
+    color: white;
+    list-style-type: none;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 1s;
+    user-select: none;
+}
+.links a:hover{
+    color: red;
+}
+main{
+    flex-grow: 6;
+    padding: 15vh 5vw;
+    color: white;
+}
+main h1{
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 95px;
+}
+main p{
+    font-size: 22px;
+    max-width: 390px;
+}
+.vertical{
+    font-size: 32px;
+    transform: rotate(270deg);
+    color: red;
+}
+.vertical-text{
+    display:flex;
+    gap: 0px;
+    list-style-type: none;
+    align-items: center;
+}
+table{
+    margin-top: 30px;
+    padding: 5px;
+    text-align: left;
+}
+td{
+    border-right: 1px solid red;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+tr.titulo{
+    font-size: 19px;
+}
+tr.text{
+    font-size: 13px;
+}
+footer{
+    text-align: center;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    /*background-color: rgba(184, 135, 11, 0.226);*/
+}
