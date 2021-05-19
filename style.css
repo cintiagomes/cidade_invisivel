@@ -53,6 +53,7 @@ main{
     padding: 20vh 10vw;
     color: white;
     font-size: 17px;
+    line-height: 1.5;
 }
 main h3{
     font-size: 25px;
@@ -70,9 +71,12 @@ main a{
     align-items: center;
     text-decoration: none;
     font-size: 16px;
+    text-align: center;
     width: 130px;
     height: 40px;
     background-color: goldenrod;
+    border: solid 1px black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.76);
     margin-top: 30px;
     border-radius: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.719);
