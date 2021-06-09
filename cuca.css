@@ -6,10 +6,10 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(#);
+    background-image: url(img/cuca3.jpg);
     background-blend-mode: darken;
     background-size: cover;
-    background-position: right top;
+    background-position: center top;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
@@ -91,4 +91,64 @@ ul .submenu{
 }
 .submenu a:hover{
     border-left: 10px solid  rgba(51, 0, 0, 0.747);
+}
+main{
+    flex-grow: 3;
+    padding: 13vh 5vw;
+    color: white;
+}
+main h1{
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 99px;
+    position: relative;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    
+}
+main h1::after{
+    content: "Cuca";
+    -webkit-text-stroke: 3px rgba(0, 0, 0, 0.87);
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: -1;
+}
+main p{
+    font-size: 22px;
+    max-width: 410px;
+}
+.vertical{
+    font-size: 32px;
+    transform: rotate(270deg);
+    color: red;
+}
+.vertical-text{
+    display:flex;
+    gap: 0px;
+    list-style-type: none;
+    align-items: center;
+}
+table{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: left;
+}
+td{
+    border-right: 1px solid red;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+tr.titulo{
+    font-size: 19px;
+}
+tr.text{
+    font-size: 13px;
+}
+footer{
+    text-align: center;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    /*background-color: rgba(184, 135, 11, 0.226);*/
 }

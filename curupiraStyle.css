@@ -9,7 +9,7 @@ body{
     background-image: url(img/Curupira.jpg);
     background-blend-mode: darken;
     background-size: cover;
-    background-position: right top;
+    background-position: center top;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
@@ -99,7 +99,7 @@ main{
 }
 main h1{
     font-family: 'Caesar Dressing', cursive;
-    font-size: 100px;
+    font-size: 90px;
     position: relative;
     -webkit-text-stroke: 1px white;
     color: transparent;

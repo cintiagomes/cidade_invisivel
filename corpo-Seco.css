@@ -6,7 +6,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(img/iara4.jpg);
+    background-image: url(img/corpo-seco.jpg);
     background-blend-mode: darken;
     background-size: cover;
     background-position: center top;
@@ -94,7 +94,7 @@ ul .submenu{
 }
 main{
     flex-grow: 6;
-    padding: 13vh 5vw;
+    padding: 15vh 5vw;
     color: white;
 }
 main h1{
@@ -106,7 +106,7 @@ main h1{
     
 }
 main h1::after{
-    content: "Iara";
+    content: "Corpo-Seco";
     -webkit-text-stroke: 3px rgba(0, 0, 0, 0.87);
     position: absolute;
     top: 3px;

@@ -6,7 +6,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(img/iara4.jpg);
+    background-image: url(img/sobre.jpg);
     background-blend-mode: darken;
     background-size: cover;
     background-position: center top;
@@ -16,14 +16,21 @@ body{
 }
 header{
     background-color: #000000AA;
-    height: 65px;
+    height: 64px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 4vw;
 }
 img{
-    width: 144px;
+    width: 146px;
+}
+ul#ul-principal{
+    background-color: #000000AA;
+}
+li{
+    float: left;
+    position: relative;
 }
 .links ul{
     display:flex;
@@ -71,6 +78,7 @@ a {
     padding: 0;
     display: none;
     margin: 0;
+    left: 0;
     z-index: 0;
 }
 
@@ -90,63 +98,18 @@ ul .submenu{
     background-color: #000000BB;
 }
 .submenu a:hover{
-    border-left: 10px solid  rgba(51, 0, 0, 0.747);
-}
-main{
-    flex-grow: 6;
-    padding: 13vh 5vw;
-    color: white;
-}
-main h1{
-    font-family: 'Caesar Dressing', cursive;
-    font-size: 90px;
-    position: relative;
-    -webkit-text-stroke: 1px white;
-    color: transparent;
-    
-}
-main h1::after{
-    content: "Iara";
-    -webkit-text-stroke: 3px rgba(0, 0, 0, 0.87);
-    position: absolute;
-    top: 3px;
-    left: 3px;
-    z-index: -1;
-}
-main p{
-    font-size: 22px;
-    max-width: 450px;
-}
-.vertical{
-    font-size: 32px;
-    transform: rotate(270deg);
-    color: red;
-}
-.vertical-text{
-    display:flex;
-    gap: 0px;
-    list-style-type: none;
-    align-items: center;
-}
-table{
-    margin-top: 30px;
-    padding: 5px;
-    text-align: left;
-}
-td{
-    border-right: 1px solid red;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-tr.titulo{
-    font-size: 19px;
-}
-tr.text{
-    font-size: 13px;
+    border-left: 10px solid  rgb(54, 0, 0);
 }
 footer{
     text-align: center;
-    height: 40px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    /*background-color: rgba(184, 135, 11, 0.226);*/
+}
+footer{
+    text-align: center;
+    height: 30px;
     color: white;
     font-size: 15px;
     /*background-color: rgba(184, 135, 11, 0.226);*/
